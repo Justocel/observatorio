@@ -13,6 +13,7 @@ authors = [{name = "justo celsi" }]
 dependencies = [
     "psycopg[binary]>=3.3.4",
     "python-dotenv>=1.2.2",
+    "requests>=2.33.1",
 ]
 
 [build-system]
