@@ -1,1 +1,20 @@
-authors = [{name = justo celsi }]
+[project]
+name = "observatorio"
+
+version = "0.1.0"
+
+description = "Pipeline de ingesta y análisis de indicadores económicos argentinos"
+
+readme = "README.md"
+
+requires-python = ">=3.11"
+
+authors = [{name = "justo celsi" }]
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/observatorio"]
