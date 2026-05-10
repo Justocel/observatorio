@@ -11,6 +11,10 @@ data/
 *.csv
 *.parquet
 
+# Logs (de cron y de ejecuciones locales)
+logs/
+*.log
+
 # IDE / OS
 .vscode/
 .idea/
